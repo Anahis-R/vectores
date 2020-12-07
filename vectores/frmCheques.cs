@@ -10,27 +10,17 @@ using System.Windows.Forms;
 
 namespace vectores
 {
-    public partial class emisordecheques : Form
+    public partial class frmCheques : Form
     {
-        public emisordecheques()
+        public frmCheques()
         {
             InitializeComponent();
         }
 
-        private void emisordecheques_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void btnCalcular_Click(object sender, EventArgs e)
         {
             UTILS.numerosficheros.testUnidades();
-            int num = Int32.Parse(this.txtpagueselaordende.Text);
+            int num = Int32.Parse(this.txtNum.Text);
             this.txtResultado.Text = UTILS.numerosficheros.getDecenas(num);
         }
     }
