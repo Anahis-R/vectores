@@ -52,11 +52,11 @@
     <Compile Include="emisordecheques.Designer.cs">
       <DependentUpon>emisordecheques.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCheques.cs">
+    <Compile Include="frmEmisorCheques.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCheques.Designer.cs">
-      <DependentUpon>frmCheques.cs</DependentUpon>
+    <Compile Include="frmEmisorCheques.Designer.cs">
+      <DependentUpon>frmEmisorCheques.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,8 +74,8 @@
     <EmbeddedResource Include="emisordecheques.resx">
       <DependentUpon>emisordecheques.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCheques.resx">
-      <DependentUpon>frmCheques.cs</DependentUpon>
+    <EmbeddedResource Include="frmEmisorCheques.resx">
+      <DependentUpon>frmEmisorCheques.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

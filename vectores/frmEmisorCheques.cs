@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace vectores
 {
-    public partial class frmCheques : Form
+    public partial class frmEmisorCheques : Form
     {
-        public frmCheques()
+        public frmEmisorCheques()
         {
             InitializeComponent();
         }
@@ -20,7 +20,7 @@ namespace vectores
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             UTILS.numerosficheros.testUnidades();
-            int num = Int32.Parse(this.txtNum.Text);
+            int num = Int32.Parse(this.txtpaguesealaordende.Text);
             this.txtResultado.Text = UTILS.numerosficheros.getDecenas(num);
         }
     }

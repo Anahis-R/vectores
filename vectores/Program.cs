@@ -15,7 +15,7 @@ namespace vectores
            
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
-                Application.Run(new frmCheques());
+                Application.Run(new frmEmisorCheques());
             
         }
     }
